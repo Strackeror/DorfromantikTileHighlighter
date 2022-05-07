@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>10</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GameDll\Assembly-CSharp.dll"/>
+    <Reference Include="GameDll\UnityEngine.dll"/>
+    <Reference Include="GameDll\UnityEngine.CoreModule.dll"/>
+    <Reference Include="GameDll\UnityEngine.UI.dll"/>
+    <Reference Include="GameDll\Unity.InputSystem.dll"/>
+    <Reference Include="GameDll\UnityEngine.InputLegacyModule.dll"/>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.*" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
+  </ItemGroup>
+ </Project>
